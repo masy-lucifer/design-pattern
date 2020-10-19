@@ -1,0 +1,21 @@
+package com.masy.create.factory.method;
+
+/**
+ * 苹果（具体产品：实现抽象产品接口）
+ * @Author: masy
+ * @Date: 2020/10/19 13:36
+ * @Version: 1.0
+ */
+public class AppleProduct implements Product{
+
+    /**
+     * 实现抽象产品接口的方法
+     * @Author: masy
+     * @Date: 2020/10/19 13:38
+     * @Version: 1.0
+     */
+    @Override
+    public void show() {
+        System.out.println("这是具体产品：苹果。");
+    }
+}
